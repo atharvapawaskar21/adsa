@@ -7,7 +7,7 @@ public class Hash {
             sum +=ascii;
         }
         int pos = sum%size;
-        System.out.println("ASII Sum = "+sum);
+        System.out.println("ASCII Sum = "+sum);
         System.out.println("Hash Position is "+pos);
     }
     public static void main(String[] args){
